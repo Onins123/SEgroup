@@ -47,12 +47,25 @@
         z-index: 1050;
       }
 
+      .sidebar .nav-link {
+        color: #8B8C89;
+        font-size: 15px;
+        padding: 10px 15px;
+        border-radius: 5px;
+      }
+
+      .sidebar .nav-link.active, .sidebar .nav-link:hover {
+        background-color: #274c77;
+        color: white;
+      }
+
       /* Main content styling */
       .main-content {
         margin-top: 80px;
         padding: 20px;
         width: 100%;
       }
+
 
       /* Show sidebar */
       .sidebar.show {
@@ -97,7 +110,7 @@
           <a class="nav-link" href="/accounts">Accounts</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/login" style="color: #8B8C89;">Logout</a>
+          <a class="nav-link" href="/login">Logout</a>
         </li>
       </ul>
     </div>
